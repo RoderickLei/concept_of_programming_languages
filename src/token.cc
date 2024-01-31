@@ -120,7 +120,7 @@ void Token::disambiguateString(int& i, int& j, int& varCount) {
     } 
 }
 
-// Helper method to enclose expressions in brackets
+// Method to enclose expressions in brackets
 void Token::encloseBrackets(int i, int& j, int varCount) {
     int add = 0;
 
