@@ -61,7 +61,7 @@ bool checkExpression(std::string const & result, Token * tokenString) {
 			errorLine++;
 		}
 	} catch (const std::runtime_error& error) {
-		// Place your code for managing errors here
+		// Place your code for handling errors here
 		std::cout << error.what() << "\nFound at expression " << errorLine << std::endl;
 		std::cerr << error.what() << "\nFound at expression " << errorLine << std::endl;
 		return true;
