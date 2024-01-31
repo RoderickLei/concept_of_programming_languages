@@ -1,4 +1,4 @@
-# concept_of_programming_languages
+# concept_of_programming_languages_2
 
 The program is expected to function correctly with a minor exception. In cases where the error message reads "Error: Input string not fully parsed," the program will display the message as "Error: Missing variable" instead. It is assumed that lambdas adhere to left-association precedence.
 
