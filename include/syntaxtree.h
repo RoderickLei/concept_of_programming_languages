@@ -18,7 +18,7 @@ class SyntaxTree{
 
         void add(Node * node); //adds node to parse tree
         void remove(Node * node); //removes node from the parse tree
-        void cleanUpTree(); //removes all nodes that are not used in the parse tree
+        void clean(); //removes all nodes that are not used in the parse tree
         void reduce(); //reduces the parse tree to a minimal form
         void betaReduction(Node * node, bool & reductionDone); //reduces the parse tree to a minimal form
         bool capturedVariable(Node * node, std::string variable); 
